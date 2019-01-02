@@ -1,0 +1,10 @@
+typedef struct _DRIVDATA      // driv
+     {
+     LONG cb ;                // size of structure in bytes
+     LONG lVersion ;          // driver version
+     CHAR szDeviceName[32] ;  // output device name
+     CHAR abGeneralData[1] ;  // data specific to device
+     }
+     DRIVDATA ;
+
+

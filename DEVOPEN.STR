@@ -1,0 +1,16 @@
+typedef struct _DEVOPENSTRUC
+	{
+	PSZ       pszLogAddress ;     // logical address
+	PSZ       pszDriverName ;     // driver  name
+	PDRIVDATA pdriv ;             // DRIVDATA  structure
+	PSZ       pszDataType ;       // spooled data type
+	PSZ       pszComment ;        // file description
+	PSZ       pszQueueProcName ;  // queue processor name
+	PSZ       pszQueueProcParams ;// queue parameters
+	PSZ       pszSpoolerParams ;  // spooler parameters
+	PSZ       pszNetworkParams ;  // network parameters
+	}
+	DEVOPENSTRUC ;
+
+
+
